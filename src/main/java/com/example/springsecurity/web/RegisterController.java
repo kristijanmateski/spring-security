@@ -46,7 +46,7 @@ public class RegisterController {
             );
         }
 
-        //if we have errors then will be shown and won't be creat new user
+        //if there are errors, they will be shown, and a new user will not be created.
         if (result.hasErrors()) {
             return "register";
         }
